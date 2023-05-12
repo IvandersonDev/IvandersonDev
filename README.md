@@ -1,16 +1,29 @@
-### Hi there 👋
+<h1 align="center">Opa !! Eai tudo de boa? </h1>
 
-<!--
-**ivandersonpy/ivandersonpy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Status</h1>
+<div align="center">
+ <div style="display: flex; align-items: flex-start;">
+    <img src="https://github-readme-stats.vercel.app/api?username=IvandersonDev&theme=synthwave" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvandersonDev&theme=synthwave" />
+  </div>
+</div>
 
-Here are some ideas to get you started:
+<h1 align="center">Sobre mim</h1>
+<p align="center">
+-  Moro em Aurora - CE
+</p>
+<p align="center">
+-  Cursando Ciência da Computação (P3)
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h1 align="center">Contato</h1>
+<p align="center">
+WIP . . .
+</p>
+
+<h1 align="center">Linguagens</h1>
+<p align="center">
+<img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+<img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+</p>
