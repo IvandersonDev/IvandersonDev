@@ -18,7 +18,7 @@
 -  Moro em Aurora - CE
 </p>
 <p align="center">
--  Cursando Ciência da Computação (P4)
+-  Cursando Ciência da Computação (P5)
 </p>
 
 
