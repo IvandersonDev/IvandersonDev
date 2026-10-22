@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=fe428e&height=120&section=header"/>
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fe428e&size=28&center=true&vCenter=true&width=1000&lines=OLÁ,+Meu+nome+é+Ivanderson+Amaral.;Sou+do+Brasil,+CE;Estudo+ciência+da+computação;Desenvolvedor+Back-End;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fe428e&size=28&center=true&vCenter=true&width=1000&lines=OLÁ,+Meu+nome+é+Ivanderson+Amaral.;Sou+do+Brasil,+CE;Formado+Em+ciência+da+computação;Desenvolvedor+Back-End;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
 
 
 <div align="center">
@@ -18,7 +18,7 @@
 -  Moro em Aurora - CE
 </p>
 <p align="center">
--  Cursando Ciência da Computação (P8)
+-  Formado Em Ciência da Computação
 </p>
 
 
