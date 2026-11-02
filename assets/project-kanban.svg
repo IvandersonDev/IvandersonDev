@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="300" viewBox="0 0 750 300" role="img" aria-labelledby="t d">
+  <title id="t">Kanban Task Manager</title>
+  <desc id="d">Card de projeto com colunas Kanban flutuantes em tons de violeta e ciano.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#0B1530"/><stop offset="1" stop-color="#312166"/>
+    </linearGradient>
+    <linearGradient id="accent"><stop stop-color="#B77BFF"/><stop offset="1" stop-color="#5CEAFF"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#A865FF" stop-opacity=".54"/><stop offset="1" stop-color="#A865FF" stop-opacity="0"/></radialGradient>
+    <clipPath id="cl"><rect width="750" height="300" rx="18"/></clipPath>
+    <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <g clip-path="url(#cl)">
+    <rect width="750" height="300" fill="url(#bg)"/>
+    <circle cx="570" cy="155" r="210" fill="url(#glow)"/>
+    <path d="M0 273C230 172 364 377 750 170" stroke="#A379F3" opacity=".18" stroke-width="2" fill="none"/>
+    <rect x="36" y="34" width="129" height="31" rx="15" fill="#573D91"/>
+    <text x="51" y="55" font-family="Arial, sans-serif" font-size="15" fill="#E2D6FF" font-weight="700">FULL STACK</text>
+    <text x="36" y="131" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF">Kanban</text>
+    <text x="36" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="url(#accent)">Task Manager</text>
+    <text x="38" y="222" font-family="Consolas, monospace" font-size="17" fill="#B5BFE3">Spring Boot  /  React  /  JWT</text>
+    <path d="M38 254H316" stroke="#D0C0F4" stroke-opacity=".3"/>
+    <circle cx="44" cy="272" r="4" fill="#70E7EA"/><text x="58" y="277" font-family="Arial, sans-serif" font-size="13" fill="#AEBBDF">organize · acompanhe · conclua</text>
+    <g transform="translate(399 40) rotate(-7 150 110)">
+      <rect x="13" y="22" width="296" height="225" rx="15" fill="#070D26" opacity=".65" filter="url(#blur)"/>
+      <rect width="310" height="220" rx="15" fill="#151B3D" stroke="#8B7CC9" stroke-opacity=".6"/>
+      <path d="M0 44H310" stroke="#A3A1D7" stroke-opacity=".2"/>
+      <circle cx="20" cy="22" r="4" fill="#FF75B6"/><circle cx="35" cy="22" r="4" fill="#FFC575"/><circle cx="50" cy="22" r="4" fill="#6AE9C4"/>
+      <g font-family="Arial, sans-serif" font-size="11" font-weight="700">
+        <text x="18" y="71" fill="#A9B4D9">TO DO</text><text x="120" y="71" fill="#A9B4D9">DOING</text><text x="222" y="71" fill="#A9B4D9">DONE</text>
+      </g>
+      <rect x="14" y="83" width="90" height="64" rx="8" fill="#262E59"/>
+      <rect x="116" y="83" width="90" height="93" rx="8" fill="#2E2863"/>
+      <rect x="218" y="83" width="79" height="76" rx="8" fill="#1F4255"/>
+      <rect x="25" y="96" width="38" height="5" rx="2.5" fill="#FF89BA"/>
+      <rect x="25" y="109" width="60" height="4" rx="2" fill="#8C99C8"/>
+      <rect x="126" y="96" width="38" height="5" rx="2.5" fill="#BA8AFF"/>
+      <rect x="126" y="109" width="62" height="4" rx="2" fill="#8C99C8"/>
+      <rect x="229" y="96" width="41" height="5" rx="2.5" fill="#67E7EA"/>
+      <rect x="229" y="109" width="51" height="4" rx="2" fill="#8C99C8"/>
+      <rect x="15" y="155" width="89" height="42" rx="8" fill="#262E59"/>
+      <rect x="25" y="166" width="53" height="5" rx="2.5" fill="#FF89BA"/>
+      <rect x="126" y="136" width="59" height="4" rx="2" fill="#8C99C8"/>
+      <rect x="229" y="126" width="34" height="4" rx="2" fill="#8C99C8"/>
+      <circle cx="266" cy="184" r="16" fill="#64E1DC"/><path d="M259 184l5 5 9-11" fill="none" stroke="#11243D" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <rect width="750" height="4" fill="url(#accent)"/>
+  </g>
+</svg>

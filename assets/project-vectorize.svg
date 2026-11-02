@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="300" viewBox="0 0 750 300" role="img" aria-labelledby="t d">
+  <title id="t">Bot Vectorize IA</title>
+  <desc id="d">Card vibrante em pink e roxo com forma vetorial, curvas de Bézier e pontos de controle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#250E32"/><stop offset=".6" stop-color="#481C5E"/><stop offset="1" stop-color="#181D58"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF7BB7"/><stop offset="1" stop-color="#7AE9FF"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#FF55C3" stop-opacity=".52"/><stop offset="1" stop-color="#FF55C3" stop-opacity="0"/></radialGradient>
+    <clipPath id="cl"><rect width="750" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#cl)">
+    <rect width="750" height="300" fill="url(#bg)"/>
+    <circle cx="598" cy="152" r="215" fill="url(#glow)"/>
+    <path d="M0 250Q170 190 380 288T750 120" stroke="#E771D7" stroke-opacity=".16" fill="none" stroke-width="2"/>
+    <rect x="36" y="34" width="122" height="31" rx="15" fill="#6C315D"/>
+    <text x="53" y="55" font-family="Arial, sans-serif" font-size="15" fill="#FFE1F1" font-weight="700">AUTOMAÇÃO</text>
+    <text x="36" y="131" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF">Bot</text>
+    <text x="36" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="url(#accent)">Vectorize IA</text>
+    <text x="38" y="222" font-family="Consolas, monospace" font-size="17" fill="#E3BDD9">Python  /  Telegram  /  SVG</text>
+    <path d="M38 254H308" stroke="#FCC6E9" stroke-opacity=".35"/>
+    <circle cx="44" cy="272" r="4" fill="#FF88BD"/><text x="58" y="277" font-family="Arial, sans-serif" font-size="13" fill="#DBBBD5">imagem em vetor, sem complicação</text>
+    <g transform="translate(538 147) rotate(-12)">
+      <circle r="113" fill="#21153F" stroke="#EE93FB" stroke-opacity=".45" stroke-width="2"/>
+      <circle r="96" fill="none" stroke="#AC76D9" stroke-opacity=".35" stroke-dasharray="4 10"/>
+      <path d="M-62 45C-99-62 31-103 72-33C104 33 15 98-62 45Z" fill="#B85CFA" fill-opacity=".18" stroke="#FF88C5" stroke-width="5"/>
+      <path d="M-62 45L-76-39M72-33L16-84M-62 45L13 85M72-33L92 36" stroke="#88E8FC" stroke-width="1.8" opacity=".7"/>
+      <path d="M-76-39L16-84M13 85L92 36" stroke="#88E8FC" stroke-dasharray="5 8" opacity=".45"/>
+      <g fill="#6AF0FF" stroke="#1A2250" stroke-width="3">
+        <rect x="-69" y="38" width="14" height="14" rx="2"/><rect x="65" y="-40" width="14" height="14" rx="2"/>
+        <rect x="-83" y="-46" width="14" height="14" rx="2"/><rect x="9" y="-91" width="14" height="14" rx="2"/>
+        <rect x="6" y="78" width="14" height="14" rx="2"/><rect x="85" y="29" width="14" height="14" rx="2"/>
+      </g>
+      <path d="M-16-23L19-40L34-2L2 34Z" fill="#FF93C7" opacity=".8"/>
+      <path d="M-16-23L34-2L2 34" stroke="#FFF" stroke-opacity=".8" fill="none" stroke-width="2"/>
+    </g>
+    <rect width="750" height="4" fill="url(#accent)"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="300" viewBox="0 0 750 300" role="img" aria-labelledby="t d">
+  <title id="t">BLACK PLUS TV</title>
+  <desc id="d">Card tecnológico azul ciano com tela de TV iluminada e símbolo de reprodução.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#07192C"/><stop offset="1" stop-color="#123B59"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#58F8E1"/><stop offset="1" stop-color="#658BFF"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3A4DE1"/><stop offset=".5" stop-color="#12618A"/><stop offset="1" stop-color="#1AD3B1"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#19CBF5" stop-opacity=".45"/><stop offset="1" stop-color="#19CBF5" stop-opacity="0"/></radialGradient>
+    <clipPath id="cl"><rect width="750" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#cl)">
+    <rect width="750" height="300" fill="url(#bg)"/>
+    <circle cx="575" cy="155" r="220" fill="url(#glow)"/>
+    <path d="M0 252L750 80M0 280L750 108" stroke="#6BE7F5" stroke-opacity=".08"/>
+    <rect x="36" y="34" width="127" height="31" rx="15" fill="#1B526C"/>
+    <text x="53" y="55" font-family="Arial, sans-serif" font-size="15" fill="#C4FFF5" font-weight="700">ANDROID TV</text>
+    <text x="36" y="131" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF">BLACK</text>
+    <text x="36" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="800" fill="url(#accent)">PLUS TV</text>
+    <text x="38" y="222" font-family="Consolas, monospace" font-size="17" fill="#BCD5E7">Android  /  Streaming  /  IPTV</text>
+    <path d="M38 254H328" stroke="#B1E6F4" stroke-opacity=".28"/>
+    <circle cx="44" cy="272" r="4" fill="#6CF4DD"/><text x="58" y="277" font-family="Arial, sans-serif" font-size="13" fill="#ACCADA">TV, Android e experiência fluida</text>
+    <g transform="translate(411 53)">
+      <rect x="12" y="18" width="287" height="182" rx="21" fill="#34EAED" opacity=".18"/>
+      <rect width="308" height="194" rx="22" fill="#090F29" stroke="#78EAF7" stroke-width="3"/>
+      <rect x="12" y="12" width="284" height="169" rx="12" fill="url(#screen)"/>
+      <circle cx="160" cy="93" r="58" fill="#071831" fill-opacity=".45" stroke="#B5FFFF" stroke-opacity=".5" stroke-width="2"/>
+      <path d="M145 62V124L191 93Z" fill="#E3FFFF"/>
+      <path d="M13 161Q80 110 156 165T295 101V182H13Z" fill="#071C47" fill-opacity=".55"/>
+      <path d="M151 194V213M109 214H193" stroke="#79DEE4" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="282" cy="193" r="3" fill="#68F3DC"/>
+    </g>
+    <rect width="750" height="4" fill="url(#accent)"/>
+  </g>
+</svg>

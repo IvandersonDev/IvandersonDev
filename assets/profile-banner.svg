@@ -1,47 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
-  <title id="title">Ivanderson Amaral</title>
-  <desc id="description">Banner do perfil GitHub com nome, área de atuação e ilustração de um editor de código.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ivanderson Amaral — Backend Developer</title>
+  <desc id="desc">Capa futurista com tipografia expressiva, anéis de energia em rosa e ciano e elementos de programação.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0C1020" />
-      <stop offset="100%" stop-color="#171129" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B1D"/>
+      <stop offset=".56" stop-color="#141032"/>
+      <stop offset="1" stop-color="#081E34"/>
     </linearGradient>
-    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF5C9A" />
-      <stop offset="100%" stop-color="#B893FF" />
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#FF4B9B"/>
+      <stop offset=".5" stop-color="#FF79B5"/>
+      <stop offset="1" stop-color="#9D65FF"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#D44BBA" stop-opacity="0.34" />
-      <stop offset="100%" stop-color="#D44BBA" stop-opacity="0" />
+    <linearGradient id="cool" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64F5EF"/>
+      <stop offset="1" stop-color="#678BFF"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1=".1" y1=".1" x2=".9" y2=".9">
+      <stop offset="0" stop-color="#FF5FA8"/>
+      <stop offset=".38" stop-color="#B25DFF"/>
+      <stop offset=".76" stop-color="#426EFF"/>
+      <stop offset="1" stop-color="#4DE6F3"/>
+    </linearGradient>
+    <radialGradient id="violet-glow">
+      <stop offset="0" stop-color="#8246EB" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#8246EB" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1" />
+    <radialGradient id="cyan-glow">
+      <stop offset="0" stop-color="#00E4FF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#00E4FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine">
+      <stop offset="0" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFF" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="mesh" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#B3C2FF" stroke-opacity=".075"/>
+      <circle cx="0" cy="0" r="1.5" fill="#B3C2FF" opacity=".14"/>
     </pattern>
+    <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="19"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="clip"><rect width="1600" height="480" rx="28"/></clipPath>
+    <style>
+      .spin { animation: spin 32s linear infinite; transform-origin: 1265px 238px; }
+      .float { animation: float 5s ease-in-out infinite; }
+      .cursor { animation: pulse 1.15s steps(2,end) infinite; }
+      .spark { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes float { 50% { transform: translateY(-9px); } }
+      @keyframes pulse { 50% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) {
+        .spin,.float,.cursor,.spark { animation: none; }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="320" rx="22" fill="url(#background)" />
-  <rect width="1200" height="320" rx="22" fill="url(#grid)" />
-  <ellipse cx="1040" cy="80" rx="360" ry="250" fill="url(#glow)" />
-  <rect x="0" y="0" width="1200" height="5" rx="2.5" fill="url(#pink)" />
+  <g clip-path="url(#clip)">
+    <rect width="1600" height="480" fill="url(#bg)"/>
+    <rect width="1600" height="480" fill="url(#mesh)"/>
+    <ellipse cx="420" cy="440" rx="470" ry="245" fill="url(#violet-glow)"/>
+    <circle cx="1290" cy="240" r="380" fill="url(#violet-glow)"/>
+    <circle cx="1500" cy="390" r="300" fill="url(#cyan-glow)"/>
+    <path d="M1000 -65L1600 260M1120 -75L1600 165M840 485L1535 0" stroke="#6E71EE" opacity=".08" stroke-width="2"/>
 
-  <rect x="55" y="48" width="4" height="224" rx="2" fill="url(#pink)" />
-  <text x="80" y="80" fill="#FCA5D0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">OLÁ, EU SOU</text>
-  <text x="76" y="152" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">IVANDERSON</text>
-  <text x="77" y="224" fill="url(#pink)" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="-2">AMARAL</text>
-  <text x="81" y="259" fill="#BCC5D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">Desenvolvedor Back-end  •  Ciência da Computação</text>
+    <!-- Left typographic system -->
+    <path d="M91 73H205" stroke="url(#hot)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="219" cy="73" r="4" fill="#79F3F0"/>
+    <text x="91" y="113" font-family="Consolas, 'Courier New', monospace" fill="#A6B3D5" font-size="21" letter-spacing="2">hey, mundo! eu sou</text>
+    <text x="84" y="217" font-family="'Arial Black', 'Segoe UI', Arial, sans-serif" font-weight="900" letter-spacing="-5.5" font-size="102" fill="#F8F9FF">IVANDERSON</text>
+    <text x="84" y="330" font-family="'Arial Black', 'Segoe UI', Arial, sans-serif" font-weight="900" letter-spacing="-7" font-size="123" fill="url(#hot)">AMARAL<tspan fill="#F8F9FF">.</tspan></text>
+    <rect x="90" y="352" width="11" height="26" rx="2" fill="#62F1EC" class="cursor"/>
+    <text x="118" y="373" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#F5F4FD" font-weight="600">Desenvolvedor Back-end</text>
+    <text x="91" y="421" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#B8C4DF">Java <tspan fill="#F871AE">/</tspan> Spring Boot <tspan fill="#F871AE">/</tspan> Python <tspan fill="#F871AE">/</tspan> APIs</text>
+    <path d="M92 448H748" stroke="#B6B7ED" opacity=".25"/>
+    <text x="91" y="465" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7F8DB0">AURORA, CE  •  BRASIL</text>
 
-  <rect x="730" y="44" width="420" height="235" rx="18" fill="#101629" stroke="#A78BFA" stroke-opacity="0.42" stroke-width="1.5" />
-  <path d="M 730 92 H 1150" stroke="#E2E8F0" stroke-opacity="0.10" />
-  <circle cx="759" cy="68" r="6" fill="#FF5C9A" />
-  <circle cx="781" cy="68" r="6" fill="#F7C56B" />
-  <circle cx="803" cy="68" r="6" fill="#83D6B0" />
-  <text x="1116" y="74" text-anchor="end" fill="#9AA6C2" font-family="Consolas, Courier New, monospace" font-size="13">profile.ts</text>
+    <!-- Orbital engineering illustration -->
+    <g class="float">
+      <circle cx="1265" cy="238" r="184" fill="none" stroke="#A869FC" stroke-opacity=".17" stroke-width="18" filter="url(#bloom)"/>
+      <circle cx="1265" cy="238" r="166" fill="none" stroke="#D0A4FF" stroke-opacity=".16" stroke-width="1.2"/>
+      <circle cx="1265" cy="238" r="151" fill="none" stroke="#6478D8" stroke-opacity=".23" stroke-width="1.2"/>
+      <g class="spin">
+        <circle cx="1265" cy="238" r="178" fill="none" stroke="url(#ribbon)" stroke-width="7" stroke-dasharray="450 70 210 390" stroke-linecap="round"/>
+        <circle cx="1265" cy="238" r="196" fill="none" stroke="#71EAF5" stroke-width="1.5" stroke-dasharray="4 18" opacity=".53"/>
+        <path d="M1178 80A178 178 0 0 1 1399 123" fill="none" stroke="#FF77C8" stroke-width="13" stroke-linecap="round" filter="url(#soft)" opacity=".7"/>
+      </g>
+      <circle cx="1265" cy="238" r="129" fill="#0D1128" stroke="#AF83FD" stroke-opacity=".65" stroke-width="2"/>
+      <circle cx="1265" cy="238" r="119" fill="#15113B"/>
+      <path d="M1161 208L1264 147L1369 208V273L1264 334L1161 273Z" fill="#121937" stroke="#7974F6" stroke-opacity=".4"/>
+      <path d="M1264 147V268L1369 208M1264 268L1161 208M1264 268V334" stroke="#8D94FA" stroke-opacity=".38" stroke-width="2" fill="none"/>
+      <path d="M1220 220l-25 18 25 18M1308 220l25 18-25 18" fill="none" stroke="url(#cool)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1286 198L1242 278" stroke="url(#hot)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="1265" cy="238" r="94" fill="none" stroke="#B167F4" stroke-opacity=".17" stroke-dasharray="4 11"/>
+      <circle cx="1091" cy="254" r="6" fill="#FF6DB7"/>
+      <circle cx="1423" cy="155" r="8" fill="#68EDFF" class="spark"/>
+      <circle cx="1373" cy="390" r="5" fill="#FF64B3"/>
+    </g>
 
-  <g font-family="Consolas, Courier New, monospace" font-size="19">
-    <text x="761" y="132" fill="#B893FF">const <tspan fill="#E2E8F0">dev</tspan> <tspan fill="#9AA6C2">= {</tspan></text>
-    <text x="784" y="165" fill="#9DD9FF">name<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"Ivanderson"</tspan><tspan fill="#9AA6C2">,</tspan></text>
-    <text x="784" y="198" fill="#9DD9FF">focus<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"Back-end"</tspan><tspan fill="#9AA6C2">,</tspan></text>
-    <text x="784" y="231" fill="#9DD9FF">location<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"CE, Brasil"</tspan></text>
-    <text x="761" y="260" fill="#9AA6C2">};</text>
+    <!-- Small interface fragments integrate the illustration with developer identity -->
+    <g transform="translate(972 76)">
+      <rect width="173" height="59" rx="12" fill="#151936" stroke="#765FA9" stroke-opacity=".7"/>
+      <circle cx="20" cy="29" r="6" fill="#70F5E8"/>
+      <text x="36" y="26" font-family="Consolas, 'Courier New', monospace" fill="#F3F4FF" font-size="14" font-weight="700">API ONLINE</text>
+      <text x="36" y="44" font-family="Consolas, 'Courier New', monospace" fill="#8EA1C7" font-size="11">status: 200 OK</text>
+    </g>
+    <g transform="translate(1432 317)">
+      <rect width="142" height="60" rx="12" fill="#161A37" stroke="#6189C9" stroke-opacity=".7"/>
+      <text x="17" y="25" font-family="Consolas, 'Courier New', monospace" fill="#69EAEF" font-size="15">{ code }</text>
+      <text x="17" y="44" font-family="Consolas, 'Courier New', monospace" fill="#B9BCD9" font-size="11">BUILD · SHIP</text>
+    </g>
+    <path d="M1137 136L1174 163M1428 326L1403 303" stroke="#719BF8" stroke-opacity=".5" stroke-dasharray="4 7"/>
+    <rect x="0" y="0" width="1600" height="5" fill="url(#ribbon)"/>
+    <rect x="0" y="475" width="1600" height="5" fill="url(#ribbon)" opacity=".75"/>
   </g>
 </svg>
