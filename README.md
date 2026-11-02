@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="Ivanderson Amaral — Desenvolvedor Back-end. Capa em rosa, roxo e ciano com arte futurista e animação discreta." width="100%" />
+  <img src="./assets/profile-hero-neon.svg" alt="Ivanderson Amaral — Desenvolvedor Back-end. Capa em rosa, roxo e ciano com arte futurista e animação discreta." width="100%" />
 
   <br />
   <br />
