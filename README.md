@@ -1,51 +1,76 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=fe428e&height=120&section=header"/>
-
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fe428e&size=28&center=true&vCenter=true&width=1000&lines=OLÁ,+Meu+nome+é+Ivanderson+Amaral.;Sou+do+Brasil,+CE;Formado+Em+ciência+da+computação;Desenvolvedor+Back-End;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
-
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IvandersonDev&show_icons=true&theme=radical" alt="IvandersonDev GitHub stats" />
-</div>
+  <img src="./assets/profile-banner.svg" alt="Ivanderson Amaral — Desenvolvedor Back-end" width="100%" />
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvandersonDev&layout=compact&theme=radical" alt="Linguagens" />
-</div>
+  <br />
 
-
-<h1 align="center">Sobre mim</h1>
-<p align="center">
--  Moro em Aurora - CE
-</p>
-<p align="center">
--  Formado Em Ciência da Computação
-</p>
-
-
-<h1 align="center">Contato</h1>
-<div align="center">
+  <a href="https://github.com/IvandersonDev?tab=repositories">
+    <img src="https://img.shields.io/badge/Projetos-Explorar-171B2C?style=for-the-badge&logo=github&logoColor=FF5C9A" alt="Explorar meus projetos" />
+  </a>
+  <a href="https://www.linkedin.com/in/ivanderson-amaral-0645b2193/">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-171B2C?style=for-the-badge&logo=linkedin&logoColor=7EB8FF" alt="Meu LinkedIn" />
+  </a>
   <a href="mailto:ivandersontrabalho@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-   <a href="https://www.instagram.com/ivan_advace/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    <a href="https://www.youtube.com/channel/UC7pLXgclNezNeyVPM3nKReA">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-     <a href="https://www.facebook.com/profile.php?id=100023287093966">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-       <a href="https://www.linkedin.com/in/ivanderson-amaral-0645b2193/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+    <img src="https://img.shields.io/badge/Email-Conversar-171B2C?style=for-the-badge&logo=gmail&logoColor=FF5C9A" alt="Enviar email" />
   </a>
 </div>
-</p>
 
-<h1 align="center">Linguagens</h1>
+## 👨‍💻 Sobre mim
+
+Sou **Ivanderson Amaral**, formado em **Ciência da Computação**, de **Aurora, Ceará**. Meu foco é o desenvolvimento **back-end**, e também construo projetos que envolvem interfaces web, automação e aplicações completas.
+
+- 💻 Desenvolvimento com **Java, Spring Boot e Python**.
+- 🧩 Experiência em projetos com **React, TypeScript e integração de APIs**.
+- 🚀 Gosto de tirar ideias do papel e transformá-las em projetos funcionais.
+
+## 🛠️ Tecnologias e ferramentas
+
+<div align="center">
+  <p><strong>Back-end</strong></p>
+  <img src="https://img.shields.io/badge/Java-171B2C?style=for-the-badge&logo=openjdk&logoColor=FF5C9A" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-171B2C?style=for-the-badge&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Python-171B2C?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+
+  <p><strong>Front-end</strong></p>
+  <img src="https://img.shields.io/badge/React-171B2C?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-171B2C?style=for-the-badge&logo=typescript&logoColor=60A5FA" alt="TypeScript" />
+
+  <p><strong>Dados e versionamento</strong></p>
+  <img src="https://img.shields.io/badge/MySQL-171B2C?style=for-the-badge&logo=mysql&logoColor=67B5DC" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-171B2C?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-171B2C?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+</div>
+
+## ✨ Projetos em destaque
+
+| Projeto | O que você encontra |
+| :--- | :--- |
+| **[Kanban Task Manager](https://github.com/IvandersonDev/Kanban-Task-Manager-full-stack)** | Gerenciador de tarefas full stack com **Spring Boot + React**, autenticação JWT, drag-and-drop e exportação em PDF. |
+| **[Bot Vectorize IA](https://github.com/IvandersonDev/bot-vectorize-IA)** | Bot para **Telegram** que recebe imagens e devolve arquivos vetorizados, com integração ao Vectorizer.AI e VTracer. |
+| **[BLACK PLUS TV](https://github.com/IvandersonDev/APP-IPTV)** | Aplicativo para **Android e Android TV** com suporte a listas M3U e contas Xtream Codes do usuário. |
+| **[MiniPhotoshop](https://github.com/IvandersonDev/MiniPhotoshop)** | Aplicação em **Java** para processamento de imagens com diferentes filtros. |
+
 <p align="center">
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title = "GIT"/></code>
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title = "GITHUB"/></code>
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title = "JAVA"/></code>
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title = "MYSQL"/></code>
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title = "PYTHON"/></code>
+  <a href="https://github.com/IvandersonDev?tab=repositories"><strong>Ver todos os repositórios →</strong></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=fe428e&height=120&section=footer"/>
+## 📈 Atividade no GitHub
+
+<div align="center">
+  <a href="https://github.com/IvandersonDev">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvandersonDev&theme=radical" alt="Gráfico de contribuições de IvandersonDev no GitHub" width="96%" />
+  </a>
+</div>
+
+## 🤝 Vamos conversar?
+
+<div align="center">
+  <a href="mailto:ivandersontrabalho@gmail.com"><img src="https://img.shields.io/badge/Gmail-171B2C?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/ivanderson-amaral-0645b2193/"><img src="https://img.shields.io/badge/LinkedIn-171B2C?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/ivan_advace/"><img src="https://img.shields.io/badge/Instagram-171B2C?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
+  <a href="https://www.youtube.com/channel/UC7pLXgclNezNeyVPM3nKReA"><img src="https://img.shields.io/badge/YouTube-171B2C?style=for-the-badge&logo=youtube&logoColor=FF0033" alt="YouTube" /></a>
+  <a href="https://www.facebook.com/profile.php?id=100023287093966"><img src="https://img.shields.io/badge/Facebook-171B2C?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" /></a>
+</div>
+
+<p align="center">
+  <sub>Obrigado pela visita! 👋</sub>
+</p>

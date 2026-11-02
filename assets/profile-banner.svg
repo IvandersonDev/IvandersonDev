@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Ivanderson Amaral</title>
+  <desc id="description">Banner do perfil GitHub com nome, área de atuação e ilustração de um editor de código.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C1020" />
+      <stop offset="100%" stop-color="#171129" />
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF5C9A" />
+      <stop offset="100%" stop-color="#B893FF" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D44BBA" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#D44BBA" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#background)" />
+  <rect width="1200" height="320" rx="22" fill="url(#grid)" />
+  <ellipse cx="1040" cy="80" rx="360" ry="250" fill="url(#glow)" />
+  <rect x="0" y="0" width="1200" height="5" rx="2.5" fill="url(#pink)" />
+
+  <rect x="55" y="48" width="4" height="224" rx="2" fill="url(#pink)" />
+  <text x="80" y="80" fill="#FCA5D0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">OLÁ, EU SOU</text>
+  <text x="76" y="152" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">IVANDERSON</text>
+  <text x="77" y="224" fill="url(#pink)" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="-2">AMARAL</text>
+  <text x="81" y="259" fill="#BCC5D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">Desenvolvedor Back-end  •  Ciência da Computação</text>
+
+  <rect x="730" y="44" width="420" height="235" rx="18" fill="#101629" stroke="#A78BFA" stroke-opacity="0.42" stroke-width="1.5" />
+  <path d="M 730 92 H 1150" stroke="#E2E8F0" stroke-opacity="0.10" />
+  <circle cx="759" cy="68" r="6" fill="#FF5C9A" />
+  <circle cx="781" cy="68" r="6" fill="#F7C56B" />
+  <circle cx="803" cy="68" r="6" fill="#83D6B0" />
+  <text x="1116" y="74" text-anchor="end" fill="#9AA6C2" font-family="Consolas, Courier New, monospace" font-size="13">profile.ts</text>
+
+  <g font-family="Consolas, Courier New, monospace" font-size="19">
+    <text x="761" y="132" fill="#B893FF">const <tspan fill="#E2E8F0">dev</tspan> <tspan fill="#9AA6C2">= {</tspan></text>
+    <text x="784" y="165" fill="#9DD9FF">name<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"Ivanderson"</tspan><tspan fill="#9AA6C2">,</tspan></text>
+    <text x="784" y="198" fill="#9DD9FF">focus<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"Back-end"</tspan><tspan fill="#9AA6C2">,</tspan></text>
+    <text x="784" y="231" fill="#9DD9FF">location<tspan fill="#9AA6C2">: </tspan><tspan fill="#FFB3D0">"CE, Brasil"</tspan></text>
+    <text x="761" y="260" fill="#9AA6C2">};</text>
+  </g>
+</svg>
